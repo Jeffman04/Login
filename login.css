@@ -1,0 +1,83 @@
+body{
+    background: linear-gradient(-45deg, #4481eb, #04befe, #4481eb);
+}
+.login{
+     background-image: linear-gradient(79deg, #1a4789 ,#005db4);
+   /*background-image: linear-gradient(79deg, #005db4, #fff);*/
+    color: white;
+    margin: auto;
+    max-width: 450px;
+    padding: 20px;
+    margin-top: 25px;
+
+}
+label{
+    text-align: left;
+    padding: 0.30rem 0;
+}
+h1{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.btn{
+    margin-top: 5px;
+    margin-left: 150px;
+    padding: 0.66rem;
+    width: 30%;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #005db4;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #999;
+    
+}
+button:hover{
+    background-color: #34a853;
+}
+button:active{
+    background-color: #34a853;
+    box-shadow: 0 3px #666;
+    transform: translateY(4px);
+}
+input{
+    border: 2px solid green;
+    width: 90%;
+    padding: 5px;
+    margin-bottom: 10px;
+
+}
+h4{
+    text-align: center;
+}
+.info{
+    text-align: center;
+}
+img{
+    border-radius: 50%;
+    width: 50%;
+    align-items: center;
+    
+}
+/*@media (prefers-reduced-motion: no-preference) {
+    img{
+      animation: img-spin infinite 20s linear;
+    }
+  }
+@keyframes img-spin{
+    from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+}*/
+.log-link:hover{
+   color: #153cea;
+}
